@@ -12,17 +12,26 @@
             }
 
             .search-bar{
-                
+                display: block;
             }
 
             .video-title{
                 width: 300px;
             }
 
-            .video-preview{
+            .video-preview > img{
                 width: 300px;
+                height: 225px;
+                object-fit: cover;
+
             }
             
+            .video-preview{
+                display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+
         </style>
     </head>
 
@@ -45,6 +54,22 @@
             </p>
             <p class="video-stats">
                 16.1M views &#183; 2 months ago
+            </p>
+        </div>
+
+        <div class="video-preview">
+            <img class="thumbnail" src="thumbnails/thumbnail2.webp">
+
+
+            <p class="video-title">
+                playing genshin on my new ipad! 
+            </p>
+
+            <p class="video-author">
+                wanderer
+            </p>
+            <p class="video-stats">
+                57K views &#183; 7 hours ago
             </p>
         </div>
     </body>

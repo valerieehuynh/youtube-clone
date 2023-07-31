@@ -5,6 +5,9 @@ p {
 }
 
 body{
+    /*This style below will be inherited*/
+    color: rgb(96, 96, 96);
+    font-family: Roboto, Arial;
     margin:0;
     padding-top: 80px;
     padding-left: 96px;
